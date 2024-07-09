@@ -16,8 +16,6 @@ export class SuccessResponse {
     }
 
     public send(res: Response, header = {}) {
-        console.log(this);
-
         return res.status(this.status).json(this)
     }
 }

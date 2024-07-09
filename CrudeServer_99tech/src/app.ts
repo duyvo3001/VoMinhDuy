@@ -31,8 +31,7 @@ app.use('/', router )
 //handle errors
 app.use((req: Request, res: Response, next: NextFunction) => {
     const error = new HttpError('Not Found', 404)
-    console.log(error);
-    
+
     next(error)
 })
 
