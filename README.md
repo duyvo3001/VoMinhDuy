@@ -19,4 +19,4 @@ API get Resource | method GET: http://localhost:8000/v1/api/detail/:id ( id you 
 
 API list Resource | method GET: http://localhost:8000/v1/api/list?filter=update&sort=asc ( filter have 2 params: update, create; sort have 2 params: asc, des )
 
-API delete Resource | method POST: http://localhost:8000/v1/api/:id ( id you want to delete )
+API delete Resource | method DELETE: http://localhost:8000/v1/api/:id ( id you want to delete )
