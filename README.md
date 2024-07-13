@@ -38,6 +38,8 @@ API create User | method POST : http://localhost:8000/Create ( return success re
 
 API update Point | method POST: http://localhost:8000/Update ( return success response ). Add in body { "UserName" :"your User" , "PassWord":"your pass" }
 
+Diagram : in folder Problem 6
+
 Websocket PORT : 'ws://localhost:4000'
 
 In this Problem 6 i'm use mongodb for database connection, websocket to realtime connect server and client. When user connect to 
@@ -49,3 +51,4 @@ address http://localhost:8000/Create add user and pass in this request and updat
 It simple server to handle one by one streaming handle. But in future i'm will use Kafka distributed event streaming platform to 
 
 handle this problem.
+
