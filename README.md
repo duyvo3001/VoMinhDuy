@@ -39,3 +39,5 @@ API create User | method POST : http://localhost:8000/Create ( return success re
 API update Point | method POST: http://localhost:8000/Update ( return success response ). Add in body { "UserName" :"your User" , "PassWord":"your pass" }
 
 Websocket PORT : 'ws://localhost:4000'
+
+Diagram : in folder Problem 6
