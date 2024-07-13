@@ -42,11 +42,7 @@ Diagram : in folder Problem 6
 
 Websocket PORT : 'ws://localhost:4000'
 
-In this Problem 6 i'm use mongodb for database connection, websocket to realtime connect server and client. When user connect to 
-
-client then server will create a websocket connection and view the top 10 scroce board. If user want play then user request in 
-
-address http://localhost:8000/Create add user and pass in this request and update scroce in http://localhost:8000/Update. 
+In this Problem 6 i'm use mongodb for database connection, websocket to realtime connect server and client. When user connect to client then server will create a websocket connection and view the top 10 scroce board. If user want play then user request in address http://localhost:8000/Create add user and pass in this request and update scroce in http://localhost:8000/Update. 
 
 It simple server to handle one by one streaming handle. But in future i'm will use Kafka distributed event streaming platform to 
 
